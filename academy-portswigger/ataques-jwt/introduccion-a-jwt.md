@@ -30,3 +30,20 @@ Por lo tanto, un JWT normalmente tiene el siguiente aspecto.
 <mark style="color:red;">`xxxxx`</mark>`.`<mark style="color:yellow;">`yyyyy`</mark>`.`<mark style="color:green;">`zzzzz`</mark>
 
 Vamos a desglosar las diferentes partes.
+
+
+
+### <mark style="color:orange;">Header (Encabezado)</mark>
+
+El encabezado _generalmente_ consta de dos partes: el tipo de token, que es JWT, y el algoritmo de firma que se utiliza, como HMAC SHA256 o RSA.
+
+Por ejemplo:
+
+```json
+{
+  "alg": "HS256",
+  "typ": "JWT"
+}
+```
+
+Luego, este JSON está codificado en Base64Url para formar la primera parte del JWT.
