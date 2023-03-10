@@ -10,14 +10,25 @@ coverY: 0
 
 ## Bienvenid@ a activePort 101
 
-Acá pongo toda la informacion que voy recopilando, tanto sea sobre temas en especifico como write-ups de maquinas que voy resolviendo (o tratando de) a lo largo de este camino a convertirme en Pentester.
+Bienvendi@ a mi sitio web sobre ethical hacking! Aqui encontraras informacion detallada sobre el mundo del hacking etico, incluyendo tecnicas, herramientas y recursos para aprender.
 
 
 
-Si llegaste acá y algo te sirvio de algo, me alegro pila :thumbsup:.&#x20;
+En el mundo actual, la seguridad de la información es más importante que nunca. Cada vez más empresas y organizaciones dependen de la tecnología para sus operaciones diarias, y con la creciente cantidad de datos almacenados en línea, la necesidad de proteger esa información se ha vuelto crítica.
 
 
 
-Cualquier corrección sobre algo en particular, escribime , por que lo mas probable que me equivoque millones de veces y no me de cuenta.&#x20;
+El hacking ético, también conocido como "penetration testing" o "pentesting", se enfoca en identificar y explotar vulnerabilidades en sistemas informáticos y redes de manera ética y controlada, con el fin de mejorar la seguridad de la información. A diferencia del hacking malicioso, el hacking ético es un proceso autorizado y legal, que puede ser llevado a cabo por expertos en seguridad informática con el propósito de identificar debilidades en la seguridad de una organización y sugerir soluciones para corregirlas.
+
+
+
+En mi camino de aprendizaje en hacking ético, he estado utilizando plataformas como Hack The Box, Portswigger y Offensive Security para mejorar mis habilidades y conocimientos. En estas plataformas, se ofrecen diferentes retos y pruebas que simulan situaciones de la vida real, permitiendo a los estudiantes mejorar su capacidad para detectar y explotar vulnerabilidades en sistemas informáticos.
+
+
+
+En este sitio web, compartiré mis experiencias y apuntes del mundo del hacking ético. Ofreceré guías y recursos en español que te ayudarán a aprender más sobre hacking ético y cómo puedes mejorar la seguridad informática de tu organización. Si eres un profesional de la seguridad informática, un estudiante o simplemente un curioso, este sitio es para ti. Explora, aprende y experimenta con seguridad. Juntos podemos hacer del mundo en línea un lugar más seguro.
+
+\
+
 
 ##
