@@ -24,3 +24,5 @@
   * [Proceso de Bug Bounty Hunter](cbbh-hack-the-box/proceso-de-bug-bounty-hunter.md)
 * [Academy Portswigger](academy-portswigger/README.md)
   * [Ataques JWT](academy-portswigger/ataques-jwt.md)
+  * [Page 1](academy-portswigger/page-1.md)
+  * [Page 2](academy-portswigger/page-2.md)
