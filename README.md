@@ -6,9 +6,9 @@ coverY: 0
 
 # 🖕 Bienvenid@!
 
-> 101 - denoting an introductory course at college or university in the subject specified.
+> 101 - Denoting an introductory course at college or university in the subject specified.
 
-## Bienvenid@ a activeport101
+## Bienvenid@ a activeport 101
 
 Acá recopilo toda la informacion que voy estudiando, tanto sea sobre temas en especifico como write-ups de maquinas que voy resolviendo (o tratando de) a lo largo de este camino a convertirme en Pentester.
 
