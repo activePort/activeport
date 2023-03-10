@@ -20,10 +20,10 @@ Esta práctica de laboratorio usa un mecanismo basado en JWT para manejar sesion
 
 <figure><img src="../../../.gitbook/assets/1 (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/1 (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (8).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/1 (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (5).png" alt=""><figcaption></figcaption></figure>
 
 4 - Hechos estos cambios, accedo a la url admin. Desde alli, procedo a eliminar al usuario Carlos.
 
-<figure><img src="../../../.gitbook/assets/1 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (1) (2).png" alt=""><figcaption></figcaption></figure>

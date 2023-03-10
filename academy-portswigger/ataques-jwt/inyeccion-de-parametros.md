@@ -1,4 +1,4 @@
-# INYECCION DE PARAMETROS
+# Inyeccion de parametros
 
 ## <mark style="color:orange;">INYECCION DE PARAMETROS EN ENCABEZADO JWT</mark>&#x20;
 
