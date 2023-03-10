@@ -26,5 +26,6 @@
   * [ATAQUES JWT](academy-portswigger/ataques-jwt.md)
     * [Introduccion a JWT](academy-portswigger/ataques-jwt/introduccion-a-jwt.md)
     * [Tipos de ataques](academy-portswigger/ataques-jwt/tipos-de-ataques.md)
+    * [Firma defectuosa](academy-portswigger/ataques-jwt/firma-defectuosa.md)
   * [Page 1](academy-portswigger/page-1.md)
   * [Page 2](academy-portswigger/page-2.md)
