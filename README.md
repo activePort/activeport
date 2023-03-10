@@ -10,11 +10,11 @@ coverY: 0
 
 ## Bienvenid@ a activePort 101
 
-Acá recopilo toda la informacion que voy estudiando, tanto sea sobre temas en especifico como write-ups de maquinas que voy resolviendo (o tratando de) a lo largo de este camino a convertirme en Pentester.
+Acá pongo toda la informacion que voy recopilando, tanto sea sobre temas en especifico como write-ups de maquinas que voy resolviendo (o tratando de) a lo largo de este camino a convertirme en Pentester.
 
 
 
-Si llegaste acá y algo te sirvio de algo, me alegra pila :thumbsup:.&#x20;
+Si llegaste acá y algo te sirvio de algo, me alegro pila :thumbsup:.&#x20;
 
 
 
