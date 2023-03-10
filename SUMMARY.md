@@ -30,3 +30,5 @@
       * [Lab 1](academy-portswigger/ataques-jwt/firma-defectuosa/lab-1.md)
     * [Tokens sin firma](academy-portswigger/ataques-jwt/tokens-sin-firma/README.md)
       * [Lab 2](academy-portswigger/ataques-jwt/tokens-sin-firma/lab-2.md)
+    * [Fuerza bruta](academy-portswigger/ataques-jwt/fuerza-bruta/README.md)
+      * [Lab 3](academy-portswigger/ataques-jwt/fuerza-bruta/lab-3.md)
