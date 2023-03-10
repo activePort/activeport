@@ -28,3 +28,4 @@
     * [Tipos de ataques](academy-portswigger/ataques-jwt/tipos-de-ataques.md)
     * [Firma defectuosa](academy-portswigger/ataques-jwt/firma-defectuosa/README.md)
       * [Lab 1](academy-portswigger/ataques-jwt/firma-defectuosa/lab-1.md)
+    * [Tokens sin firma](academy-portswigger/ataques-jwt/tokens-sin-firma.md)
