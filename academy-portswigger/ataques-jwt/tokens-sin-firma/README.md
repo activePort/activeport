@@ -1,6 +1,6 @@
 # Tokens sin firma
 
-Entre otras cosas, el encabezado JWT contiene un parámetro alg .Esto le dice al servidor qué algoritmo se usó para firmar el token y, por lo tanto, qué algoritmo debe usar al verificar la firma.
+Entre otras cosas, el encabezado JWT contiene un parámetro `alg` .Esto le dice al servidor qué algoritmo se usó para firmar el token y, por lo tanto, qué algoritmo debe usar al verificar la firma.
 
 ```json
 {
