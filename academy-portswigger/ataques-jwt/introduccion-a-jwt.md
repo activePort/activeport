@@ -1,6 +1,6 @@
 # Introduccion a JWT
 
-### <mark style="color:orange;">¿Que es el JSON Web Token?</mark>
+## <mark style="color:orange;">¿Que es el JSON Web Token?</mark>
 
 El JSON Web Token (JWT) es un estándar abierto ([RFC 7519](https://tools.ietf.org/html/rfc7519)) que define una forma compacta y autónoma de transmitir información de forma segura entre las partes como un objeto JSON. Esta información se puede verificar y confiar porque está firmada digitalmente. Los JWT se pueden firmar usando un secreto (con el **algoritmo HMAC**) o un par de claves pública/privada usando **RSA** o **ECDSA .**
 
@@ -8,7 +8,7 @@ Aunque los JWT se pueden cifrar para proporcionar también confidencialidad entr
 
 
 
-### <mark style="color:orange;">¿Cuándo debería usar JSON Web Tokens?</mark>
+## <mark style="color:orange;">¿Cuándo debería usar JSON Web Tokens?</mark>
 
 Estos son algunos escenarios en los que los JSON Web Token son útiles:
 
@@ -17,7 +17,7 @@ Estos son algunos escenarios en los que los JSON Web Token son útiles:
 
 
 
-### <mark style="color:orange;">¿Qué es la estructura del token web JSON?</mark>
+## <mark style="color:orange;">¿Qué es la estructura del token web JSON?</mark>
 
 En su forma compacta, los tokens JWT constan de tres partes separadas por puntos ( . ), que son:
 
