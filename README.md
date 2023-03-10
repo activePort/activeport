@@ -4,18 +4,20 @@ cover: >-
 coverY: 0
 ---
 
-# 👋 Bienvenid@!
+# 🖕 Bienvenid@!
 
-## Bienvenid@ a mis notas
+> 101 - Es un término de la jerga estadounidense para el conocimiento más básico en algún tema.
 
-Acá recopilo toda la informacion que voy estudiando, tanto sea sobre temas en especifico como write-ups de maquinas que voy resolviendo (o tratando de) a lo largo de este camino a convertirme en Pentester.
+## Bienvenid@ a activePort 101
 
-
-
-Si llegaste acá y algo te sirvio de algo, me alegra pila :thumbsup:.&#x20;
+Acá pongo toda la informacion que voy recopilando, tanto sea sobre temas en especifico como write-ups de maquinas que voy resolviendo (o tratando de) a lo largo de este camino a convertirme en Pentester.
 
 
 
-Cualquier corrección sobre algo en particular, escribime , por que lo mas probable que me equivoque millones de veces y no me voy a dar cuenta.&#x20;
+Si llegaste acá y algo te sirvio de algo, me alegro pila :thumbsup:.&#x20;
+
+
+
+Cualquier corrección sobre algo en particular, escribime , por que lo mas probable que me equivoque millones de veces y no me de cuenta.&#x20;
 
 ##

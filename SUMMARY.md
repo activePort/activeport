@@ -1,14 +1,24 @@
 # Table of contents
 
-* [👋 Bienvenid@!](README.md)
-* [Quick Start](quick-start.md)
-
-## Reference
-
-* [API Reference](reference/api-reference/README.md)
-  * [Pets](reference/api-reference/pets.md)
-  * [Users](reference/api-reference/users.md)
-
-***
-
-* [Page 1](page-1.md)
+* [🖕 Bienvenid@!](README.md)
+* [CBBH Hack The Box](cbbh-hack-the-box/README.md)
+  * [Solicitudes web](cbbh-hack-the-box/solicitudes-web.md)
+  * [Introduccion a las aplicaciones web](cbbh-hack-the-box/introduccion-a-las-aplicaciones-web.md)
+  * [Uso de proxies web](cbbh-hack-the-box/uso-de-proxies-web.md)
+  * [Recopilacion de informacion](cbbh-hack-the-box/recopilacion-de-informacion.md)
+  * [Atacar aplicaciones web con Ffuf](cbbh-hack-the-box/atacar-aplicaciones-web-con-ffuf.md)
+  * [Desofuscacion de Javascript](cbbh-hack-the-box/desofuscacion-de-javascript.md)
+  * [Cross-Site Scripting (XSS)](cbbh-hack-the-box/cross-site-scripting-xss.md)
+  * [Fundamentos de inyeccion SQL](cbbh-hack-the-box/fundamentos-de-inyeccion-sql.md)
+  * [Fundamentos de SQLMap](cbbh-hack-the-box/fundamentos-de-sqlmap.md)
+  * [Inyecciones de comando](cbbh-hack-the-box/inyecciones-de-comando.md)
+  * [Ataques de carga de archivos](cbbh-hack-the-box/ataques-de-carga-de-archivos.md)
+  * [Ataques del lado del servidor](cbbh-hack-the-box/ataques-del-lado-del-servidor.md)
+  * [Inicio de sesion fuerza bruta](cbbh-hack-the-box/inicio-de-sesion-fuerza-bruta.md)
+  * [Autenticacion rota](cbbh-hack-the-box/autenticacion-rota.md)
+  * [Ataques web](cbbh-hack-the-box/ataques-web.md)
+  * [Inclusion de archivos](cbbh-hack-the-box/inclusion-de-archivos.md)
+  * [Seguridad de sesion](cbbh-hack-the-box/seguridad-de-sesion.md)
+  * [Ataques a servicios web y API](cbbh-hack-the-box/ataques-a-servicios-web-y-api.md)
+  * [Hackear WordPress](cbbh-hack-the-box/hackear-wordpress.md)
+  * [Proceso de Bug Bounty Hunter](cbbh-hack-the-box/proceso-de-bug-bounty-hunter.md)
