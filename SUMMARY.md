@@ -36,4 +36,6 @@
       * [Lab 4](academy-portswigger/ataques-jwt/inyeccion-de-parametros/lab-4.md)
       * [Inyectar JWT autofirmados a traves del parametro JKU](academy-portswigger/ataques-jwt/inyeccion-de-parametros/inyectar-jwt-autofirmados-a-traves-del-parametro-jku.md)
       * [Lab 5](academy-portswigger/ataques-jwt/inyeccion-de-parametros/lab-5.md)
+      * [Inyectar JWT autofirmados a traves del parametro KID](academy-portswigger/ataques-jwt/inyeccion-de-parametros/inyectar-jwt-autofirmados-a-traves-del-parametro-kid.md)
+      * [Lab 6](academy-portswigger/ataques-jwt/inyeccion-de-parametros/lab-6.md)
 * [🕸 Road to the OSWE](road-to-the-oswe.md)

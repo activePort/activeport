@@ -26,7 +26,7 @@ Esta práctica de laboratorio usa un mecanismo basado en JWT para manejar sesion
 
 <figure><img src="../../../.gitbook/assets/1 (24).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (13).png" alt=""><figcaption></figcaption></figure>
 
 6 - Vuelvo al Repeater y a la pestaña JSON Web Token. Cambio `"sub : wiener"` por `"sub : administrator"` y luego click en sign (firmar). Selecciono la clave que genere anteriromente. `DONT MODIFY HEADER` desbe estar seleccionado.
 

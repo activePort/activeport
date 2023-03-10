@@ -12,7 +12,7 @@ Esta práctica de laboratorio usa un mecanismo basado en JWT para manejar sesion
 
 2 - Capturo la solicitud y la envio a Repeater.
 
-<figure><img src="../../../.gitbook/assets/1 (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 3 - Cambio la ruta a admin y el user a administrator, me devuelve que no esta autorizado.
 
@@ -26,7 +26,7 @@ Esta práctica de laboratorio usa un mecanismo basado en JWT para manejar sesion
 
 <figure><img src="../../../.gitbook/assets/1 (8).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/1 (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 5 - Envio el Request con el JWT alterado y me devuelve un 200 OK.
 
