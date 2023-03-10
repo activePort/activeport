@@ -1,6 +1,6 @@
 # Lab 1
 
-## <mark style="color:orange;">ANULACION DE AUTENTICACION JWT MEDIANTE FIRMA NO VERIFICADA</mark>
+## <mark style="color:orange;">ANULACION DE AUTENTICACION JWT MEDIANTE FIRMA DEFECTUOSA</mark>
 
 <mark style="color:orange;"></mark>
 
