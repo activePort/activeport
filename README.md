@@ -6,9 +6,9 @@ coverY: 0
 
 # 🖕 Bienvenid@!
 
-> 101 - Denoting an introductory course at college or university in the subject specified.
+> 101 - Es un término de la jerga estadounidense para el conocimiento más básico en algún tema.
 
-## Bienvenid@ a activeport 101
+## Bienvenid@ a activePort 101
 
 Acá recopilo toda la informacion que voy estudiando, tanto sea sobre temas en especifico como write-ups de maquinas que voy resolviendo (o tratando de) a lo largo de este camino a convertirme en Pentester.
 
