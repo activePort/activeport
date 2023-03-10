@@ -32,3 +32,4 @@
       * [Lab 2](academy-portswigger/ataques-jwt/tokens-sin-firma/lab-2.md)
     * [Fuerza bruta](academy-portswigger/ataques-jwt/fuerza-bruta/README.md)
       * [Lab 3](academy-portswigger/ataques-jwt/fuerza-bruta/lab-3.md)
+    * [INYECCION DE PARAMETROS](academy-portswigger/ataques-jwt/inyeccion-de-parametros.md)

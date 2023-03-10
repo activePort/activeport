@@ -18,7 +18,7 @@ Solo necesita un JWT válido y firmado del servidor de destino y una [lista de p
 hashcat -a 0 -m 16500 <jwt> <wordlist>
 ```
 
-<figure><img src="../../../.gitbook/assets/1 (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (12).png" alt=""><figcaption></figcaption></figure>
 
 Hashcat firma el encabezado y la carga útil del JWT usando cada secreto en la lista de palabras, luego compara la firma resultante con la original del servidor. Si alguna de las firmas coincide, hashcat genera el secreto identificado en el siguiente formato, junto con varios otros detalles:
 
