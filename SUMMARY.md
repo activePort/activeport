@@ -22,4 +22,5 @@
   * [Ataques a servicios web y API](cbbh-hack-the-box/ataques-a-servicios-web-y-api.md)
   * [Hackear WordPress](cbbh-hack-the-box/hackear-wordpress.md)
   * [Proceso de Bug Bounty Hunter](cbbh-hack-the-box/proceso-de-bug-bounty-hunter.md)
-* [Academy Portswigger](academy-portswigger.md)
+* [Academy Portswigger](academy-portswigger/README.md)
+  * [JWT](academy-portswigger/jwt.md)
