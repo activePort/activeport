@@ -8,30 +8,30 @@ Esta práctica de laboratorio usa un mecanismo basado en JWT para manejar sesion
 
 1 - Inicio sesion con las credenciales dadas.
 
-<figure><img src="../../../.gitbook/assets/1 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (22).png" alt=""><figcaption></figcaption></figure>
 
 2 - Capturo la solicitud y la envio a Repeater.
 
-<figure><img src="../../../.gitbook/assets/1 (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (5).png" alt=""><figcaption></figcaption></figure>
 
 3 - Cambio la ruta a admin y el user a administrator, me devuelve que no esta autorizado.
 
-<figure><img src="../../../.gitbook/assets/1 (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (1).png" alt=""><figcaption></figcaption></figure>
 
 4 - Procedo a realizar una inyeccion de encabezado.
 
-<figure><img src="../../../.gitbook/assets/1 (17).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/1 (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (28).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/1 (6).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/1 (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (8).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/1 (13).png" alt=""><figcaption></figcaption></figure>
 
 5 - Envio el Request con el JWT alterado y me devuelve un 200 OK.
 
-<figure><img src="../../../.gitbook/assets/1 (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (20).png" alt=""><figcaption></figcaption></figure>
 
 6 - Luego borro el usuario Carlos.
 
-<figure><img src="../../../.gitbook/assets/1 (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (11).png" alt=""><figcaption></figcaption></figure>
