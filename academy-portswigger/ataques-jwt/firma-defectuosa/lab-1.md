@@ -12,7 +12,7 @@ Esta práctica de laboratorio usa un mecanismo basado en JWT para manejar sesion
 
 1 - Inicio sesión con las credenciales dadas.
 
-<figure><img src="../../../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (1).png" alt=""><figcaption></figcaption></figure>
 
 2 - Con Burpsuite capturo la petición que se dirige a `my-account` y lo mando a Repeater.
 
@@ -38,7 +38,6 @@ Esta práctica de laboratorio usa un mecanismo basado en JWT para manejar sesion
 
 <figure><img src="../../../.gitbook/assets/13.png" alt=""><figcaption></figcaption></figure>
 
-7 - Ya logueado como administrator me dirijo al panel /admin
+7 - Ya logueado como `administrator` me dirijo al panel modificando el endpoint <mark style="color:orange;">/my-account</mark> a  <mark style="color:orange;">/admin</mark> y procedo a borrar el usuario carlos.
 
-<figure><img src="../../../.gitbook/assets/14.png" alt=""><figcaption></figcaption></figure>
-
+<figure><img src="../../../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>

@@ -17,6 +17,6 @@ Si el servidor identifica la sesión basándose en este `username`,la modificaci
 
 
 
-## <mark style="color:orange;">Aceptar firmas arbitrarias</mark>
+## <mark style="color:orange;">Aceptar firmas defectuosas</mark>
 
 Las bibliotecas JWT suelen proporcionar un método para verificar tokens y otro que simplemente los decodifica. Por ejemplo, la biblioteca Node.js jsonwebtoken tiene verify() y decode(). Ocasionalmente, los desarrolladores confunden estos dos métodos y solo pasan tokens entrantes al decode() método. Esto significa efectivamente que la aplicación no verifica la firma en absoluto.
