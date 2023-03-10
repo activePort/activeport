@@ -14,7 +14,7 @@ Esta práctica de laboratorio usa un mecanismo basado en JWT para manejar sesion
 
 2 - Con Burpsuite capturo el Request y lo envio al Repeater.
 
-<figure><img src="../../../.gitbook/assets/1 (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 3 - En el Repeater de Burpsuite modifico el endpoint `/my-account` a `/admin` . En el payload del JWT cambio `wiener` por `administrator`. Ademas cambio en el encabezado del JWT el `alg` a `none`. Por ultimo, elimino la firma, sin sacar el punto que queda luego del payload.
 
@@ -22,7 +22,7 @@ Esta práctica de laboratorio usa un mecanismo basado en JWT para manejar sesion
 
 <figure><img src="../../../.gitbook/assets/1 (8).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/1 (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 4 - Hechos estos cambios, accedo a la url admin. Desde alli, procedo a eliminar al usuario Carlos.
 
