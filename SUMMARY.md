@@ -1,7 +1,7 @@
 # Table of contents
 
-* [🖕 Bienvenid@!](README.md)
-* [CBBH Hack The Box](cbbh-hack-the-box/README.md)
+* [👋 Bienvenid@!](README.md)
+* [🕷 CBBH Hack The Box](cbbh-hack-the-box/README.md)
   * [Solicitudes web](cbbh-hack-the-box/solicitudes-web.md)
   * [Aplicaciones web](cbbh-hack-the-box/aplicaciones-web.md)
   * [Uso de proxies web](cbbh-hack-the-box/uso-de-proxies-web.md)
@@ -22,7 +22,7 @@
   * [Ataques a servicios web y API](cbbh-hack-the-box/ataques-a-servicios-web-y-api.md)
   * [Hackear WordPress](cbbh-hack-the-box/hackear-wordpress.md)
   * [Proceso de Bug Bounty Hunter](cbbh-hack-the-box/proceso-de-bug-bounty-hunter.md)
-* [Academy Portswigger](academy-portswigger/README.md)
+* [🎓 Academy Portswigger](academy-portswigger/README.md)
   * [ATAQUES JWT](academy-portswigger/ataques-jwt.md)
     * [Introduccion a JWT](academy-portswigger/ataques-jwt/introduccion-a-jwt.md)
     * [Tipos de ataques](academy-portswigger/ataques-jwt/tipos-de-ataques.md)

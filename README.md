@@ -4,7 +4,7 @@ cover: >-
 coverY: 0
 ---
 
-# 🖕 Bienvenid@!
+# 👋 Bienvenid@!
 
 > 101 - Es un término de la jerga estadounidense para el conocimiento más básico en algún tema.
 
@@ -29,6 +29,3 @@ En mi camino de aprendizaje en hacking ético, he estado utilizando plataformas 
 En este sitio web, compartiré mis experiencias y apuntes del mundo del hacking ético. Ofreceré guías y recursos en español que te ayudarán a aprender más sobre hacking ético y cómo puedes mejorar la seguridad informática de tu organización. Si eres un profesional de la seguridad informática, un estudiante o simplemente un curioso, este sitio es para ti. Explora, aprende y experimenta con seguridad. Juntos podemos hacer del mundo en línea un lugar más seguro.
 
 \
-
-
-##

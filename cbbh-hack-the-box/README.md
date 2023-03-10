@@ -3,7 +3,7 @@ cover: ../.gitbook/assets/cbbh.png
 coverY: -21
 ---
 
-# CBBH Hack The Box
+# 🕷 CBBH Hack The Box
 
 HTB Certified Bug Bounty Hunter (HTB CBBH) es una certificación muy práctica que evalúa las habilidades de los candidatos para la caza de recompensas de errores y las pruebas de aplicación web. Los titulares de la certificación HTB Certified Bug Bounty Hunter poseerán competencia técnica en los dominios de búsqueda de recompensas de errores y pruebas de penetración de aplicaciones web en un nivel intermedio. Podrán detectar problemas de seguridad e identificar vías de explotación que pueden no ser evidentes de inmediato al buscar CVE o PoC de explotación conocidos. También pueden pensar fuera de la caja, encadenar múltiples vulnerabilidades para mostrar el máximo impacto y ayudar de manera práctica a los desarrolladores a remediar las vulnerabilidades a través de informes de errores de grado comercial.
 
