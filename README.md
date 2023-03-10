@@ -1,13 +1,12 @@
 ---
-description: >-
-  101 - denoting an introductory course at college or university in the subject
-  specified.
 cover: >-
   https://images.unsplash.com/photo-1562860149-691401a306f8?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw5fHxoYWNrZXJ8ZW58MHx8fHwxNjc4NDE1OTU5&ixlib=rb-4.0.3&q=80
 coverY: 0
 ---
 
 # 🖕 Bienvenid@!
+
+> 101 - denoting an introductory course at college or university in the subject specified.
 
 ## Bienvenid@ a activeport101
 
