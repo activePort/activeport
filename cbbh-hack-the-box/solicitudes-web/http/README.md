@@ -12,7 +12,7 @@ La comunicación HTTP consta de un cliente y un servidor, donde el cliente solic
 
 Se accede a los recursos a través de HTTP a través de un `URL`, que ofrece muchas más especificaciones que simplemente especificar un sitio web que queremos visitar. Veamos la estructura de una URL:
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Esto es lo que significa cada componente:
 
@@ -32,7 +32,7 @@ No todos los componentes son necesarios para acceder a un recurso. Los principal
 
 ## <mark style="color:blue;">Flujo HTTP</mark>
 
-<figure><img src="../../.gitbook/assets/Untitled.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Untitled.png" alt=""><figcaption></figcaption></figure>
 
 El diagrama anterior presenta la anatomía de una solicitud HTTP a un nivel muy alto. La primera vez que un usuario ingresa la URL ( `inlanefreight.com`) en el navegador, envía una solicitud a un servidor DNS (Resolución de nombres de dominio) para resolver el dominio y obtener su IP. El servidor DNS busca la dirección IP para `inlanefreight.com`y lo devuelve. Todos los nombres de dominio deben resolverse de esta manera, ya que un servidor no puede comunicarse sin una dirección IP.
 
@@ -52,3 +52,55 @@ Este módulo se centra principalmente en las solicitudes web HTTP. Para obtener 
 
 En este módulo, enviaremos solicitudes web a través de dos de las herramientas más importantes para cualquier probador de penetración web, un navegador web, como Chrome o Firefox, y el cURL herramienta de línea de comandos.
 
+[cURL](https://curl.haxx.se/) ( URL del cliente ) es una herramienta y biblioteca de línea de comandos que admite principalmente HTTP junto con muchos otros protocolos. Esto lo convierte en un buen candidato para los scripts y la automatización, por lo que es esencial para enviar varios tipos de solicitudes web desde la línea de comandos, que es necesario para muchos tipos de pruebas de penetración web.
+
+Podemos enviar una solicitud HTTP básica a cualquier URL usándola como argumento para cURL, de la siguiente manera:
+
+<pre class="language-bash"><code class="lang-bash"><a data-footnote-ref href="#user-content-fn-1">activePort@htb[/htb]$</a><a data-footnote-ref href="#user-content-fn-2"> </a>curl inlanefreight.com
+
+&#x3C;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+&#x3C;html>&#x3C;head>
+...SNIP...uu
+</code></pre>
+
+cURL no representa el código HTML / JavaScript / CSS, a diferencia de un navegador web, sino que lo imprime en su formato sin formato. Sin embargo, como probadores de penetración, estamos interesados principalmente en el contexto de solicitud y respuesta, que generalmente se vuelve mucho más rápido y más conveniente que un navegador web.
+
+También podemos usar cURL para descargar una página o un archivo y generar el contenido en un archivo usando el -O bandera. Si queremos especificar el nombre del archivo de salida, podemos usar el -o  y especificar el nombre. De lo contrario, podemos usar -O y cURL usará el nombre del archivo remoto de la siguiente manera:
+
+```bash
+activePort@htb[/htb]$ curl -O inlanefreight.com/index.html
+activePort@htb[/htb]$ ls
+index.html
+```
+
+Como podemos ver, la salida no se imprimió esta vez sino que se guardó en `index.html`. Notamos que cURL aún imprimía algún estado mientras procesaba la solicitud. Podemos silenciar el estado con el comando `-s`, de la siguiente manera:
+
+```bash
+activePort@htb[/htb]$ curl -s -O inlanefreight.com/index.html
+```
+
+Esta vez, cURL no imprimió nada, ya que la salida se guardó en el `index.html`expediente. Finalmente, podemos usar el comando `-h` para ver qué otras opciones podemos usar con cURL:
+
+```bash
+activePort@htb[/htb]$ curl -h
+Usage: curl [options...] <url>
+ -d, --data <data>   HTTP POST data
+ -h, --help <category> Get help for commands
+ -i, --include       Include protocol response headers in the output
+ -o, --output <file> Write to file instead of stdout
+ -O, --remote-name   Write output to a file named as the remote file
+ -s, --silent        Silent mode
+ -u, --user <user:password> Server user and password
+ -A, --user-agent <name> Send User-Agent <name> to server
+ -v, --verbose       Make the operation more talkative
+
+This is not the full help, this menu is stripped into categories.
+Use "--help category" to get an overview of all categories.
+Use the user manual `man curl` or the "--help all" flag for all options.
+```
+
+Como se menciona en el mensaje anterior, podemos usar <mark style="color:green;">`--help all`</mark> para imprimir un menú de ayuda más detallado, o <mark style="color:green;">`--help category`</mark> ( p. <mark style="color:green;">`-h http`</mark>) para imprimir la ayuda detallada de una bandera específica. Si alguna vez necesitamos leer documentación más detallada, podemos usar <mark style="color:green;">`man curl`</mark> para ver la página completa del manual de cURL.
+
+[^1]: 
+
+[^2]: 
