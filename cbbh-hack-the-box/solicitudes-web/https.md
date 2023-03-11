@@ -12,13 +12,13 @@ Para contrarrestar este problema, se creó el [protocolo HTTPS (HTTP Secure)](ht
 
 Si examinamos una solicitud HTTP, podemos ver el efecto de no aplicar comunicaciones seguras entre un navegador web y una aplicación web. Por ejemplo, el siguiente es el contenido de una solicitud de inicio de sesión HTTP:
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 Podemos ver que las credenciales de inicio de sesión se pueden ver en texto claro. Esto facilitaría que alguien en la misma red (como una red inalámbrica pública) capture la solicitud y reutilice las credenciales con fines maliciosos.
 
 Por el contrario, cuando alguien intercepta y analiza el tráfico de una solicitud HTTPS, vería algo como lo siguiente:
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Como podemos ver, los datos se transfieren como un único flujo cifrado, lo que hace que sea muy difícil para cualquiera capturar información como credenciales o cualquier otro dato confidencial.
 
