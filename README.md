@@ -19,5 +19,3 @@ El hacking ético, también conocido como "penetration testing" o "pentesting", 
 En mi camino de aprendizaje en hacking ético, he estado utilizando plataformas como Hack The Box, Portswigger y Offensive Security para mejorar mis habilidades y conocimientos. En estas plataformas, se ofrecen diferentes retos y pruebas que simulan situaciones de la vida real, permitiendo a los estudiantes mejorar su capacidad para detectar y explotar vulnerabilidades en sistemas informáticos.
 
 En este sitio web, compartiré mis experiencias y apuntes del mundo del hacking ético. Ofreceré guías y recursos en español que te ayudarán a aprender más sobre el y cómo puedes mejorar la seguridad informática de tu organización. Si eres un profesional de la seguridad informática, un estudiante o simplemente un curioso, este sitio es para ti. Explora, aprende y experimenta con seguridad. Juntos podemos hacer del mundo en línea un lugar más seguro.
-
-\
