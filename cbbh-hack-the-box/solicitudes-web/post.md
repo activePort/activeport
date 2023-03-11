@@ -16,15 +16,15 @@ Entonces, veamos algunos ejemplos de cómo funcionan las solicitudes POST y cóm
 
 El ejercicio al final de esta sección es similar al ejemplo que vimos en la sección GET. Sin embargo, una vez que visitamos la aplicación web, vemos que utiliza un formulario de inicio de sesión PHP en lugar de autenticación básica HTTP:
 
-<figure><img src="../../../.gitbook/assets/image (8).jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).jpeg" alt=""><figcaption></figcaption></figure>
 
 Si intentamos ingresar con admin: admin, ingresamos y vemos una función de búsqueda similar a la que vimos anteriormente en la sección GET:
 
-<figure><img src="../../../.gitbook/assets/image (11).jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).jpeg" alt=""><figcaption></figcaption></figure>
 
 Si borramos la pestaña Red en las herramientas de desarrollo de nuestro navegador e intentamos iniciar sesión nuevamente, veremos que se envían muchas solicitudes. Podemos filtrar las solicitudes por la IP de nuestro servidor, por lo que solo mostraría las solicitudes que van al servidor web de la aplicación web (es decir, filtrar las solicitudes externas), y notaremos que se envía la siguiente solicitud POST:
 
-<figure><img src="../../../.gitbook/assets/image (7) (1).jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).jpeg" alt=""><figcaption></figcaption></figure>
 
 Podemos hacer clic en la solicitud, hacer clic en la Requestpestaña (que muestra el cuerpo de la solicitud) y luego hacer clic en el Rawbotón para mostrar los datos de la solicitud sin procesar. Vemos que los siguientes datos se envían como datos de solicitud POST:
 
@@ -89,11 +89,11 @@ curl -H 'Cookie: PHPSESSID=c1nsa6op7vtk7kdis7bcnbadf1' http://<SERVER_IP>:<PORT>
 
 También podemos intentar lo mismo con nuestros navegadores. Primero cierremos la sesión y luego volvamos a la página de inicio de sesión. Entonces, podemos ir a la `Storage`pestaña en las herramientas de desarrollo con \[ `SHIFT+F9`]. En el `Storage`pestaña, podemos hacer clic en `Cookies`en el panel izquierdo y seleccione nuestro sitio web para ver nuestras cookies actuales. Es posible que tengamos o no cookies existentes, pero si nos desconectamos, nuestra cookie de PHP no debería autenticarse, por lo que si obtenemos el formulario de inicio de sesión y no la función de búsqueda:
 
-<figure><img src="../../../.gitbook/assets/image (10).jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).jpeg" alt=""><figcaption></figcaption></figure>
 
 Ahora, intentemos usar nuestra <mark style="color:orange;">`cookie`</mark> autenticada anterior y veamos si ingresamos sin necesidad de proporcionar nuestras credenciales. Para hacerlo, simplemente podemos reemplazar el valor de la <mark style="color:orange;">`cookie`</mark> con el nuestro. En caso contrario, podemos hacer clic derecho sobre la cookie y seleccionar <mark style="color:orange;">`Delete All`</mark>, y haga clic en el icono <mark style="color:orange;">+</mark> para agregar una nueva cookie. Después de eso, debemos ingresar el nombre de la <mark style="color:orange;">`cookie`</mark>, que es la parte antes del <mark style="color:orange;">`=(PHPSESSID)`</mark>, y luego el valor de la cookie, que es la parte después de la <mark style="color:orange;">`=(c1nsa6op7vtk7kdis7bcnbadf1)`</mark>. Luego, una vez que nuestra <mark style="color:orange;">`cookie`</mark> está configurada, podemos actualizarla página y veremos que, de hecho, nos autenticamos sin necesidad de iniciar sesión, simplemente usando una <mark style="color:orange;">`cookie`</mark> autenticada:
 
-<figure><img src="../../../.gitbook/assets/1 (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (1).jpg" alt=""><figcaption></figcaption></figure>
 
 Como podemos ver, tener una <mark style="color:orange;">`cookie`</mark> válida puede ser suficiente para autenticarse en muchas aplicaciones web. Esto puede ser una parte esencial de algunos ataques web, como <mark style="color:orange;">`Cross-Site Scripting`</mark>.
 
@@ -103,7 +103,7 @@ Como podemos ver, tener una <mark style="color:orange;">`cookie`</mark> válida 
 
 Finalmente, veamos qué solicitudes se envían cuando interactuamos con la funcion <mark style="color:orange;">`City Search`</mark>. Para hacerlo, iremos a la pestaña Red en las herramientas de desarrollo del navegador y luego haremos clic en el icono de la papelera para borrar todas las solicitudes. Luego, podemos realizar cualquier consulta de búsqueda para ver qué solicitudes se envían:
 
-<figure><img src="../../../.gitbook/assets/1.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1.jpg" alt=""><figcaption></figcaption></figure>
 
 Como podemos ver, el formulario de búsqueda envía una solicitud <mark style="color:orange;">`POST`</mark> a <mark style="color:orange;">`search.php`</mark>, con los siguientes datos:
 
@@ -144,6 +144,6 @@ Intente repetir la solicitud anterior sin agregar la cookie o los encabezados de
 
 Finalmente, intentemos repetir la misma solicitud anterior usando `Fetch`, como hicimos en el apartado anterior. Podemos hacer clic derecho sobre la solicitud y seleccionar `Copy>Copy as Fetch`, y luego vaya a la `Console`tab y ejecute nuestro código allí:
 
-<figure><img src="../../../.gitbook/assets/image.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).jpeg" alt=""><figcaption></figcaption></figure>
 
 Nuestra solicitud devuelve con éxito los mismos datos que obtuvimos con cURL. Intente buscar diferentes ciudades interactuando directamente con el <mark style="color:orange;">`search.php`</mark> a través de Fetch o cURL.
