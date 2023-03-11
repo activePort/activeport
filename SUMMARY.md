@@ -13,6 +13,7 @@
     * [Codigos y metodos HTTP](cbbh-hack-the-box/solicitudes-web/codigos-y-metodos-http.md)
     * [GET](cbbh-hack-the-box/solicitudes-web/get/README.md)
       * [Ejercicio](cbbh-hack-the-box/solicitudes-web/get/ejercicio.md)
+    * [POST](cbbh-hack-the-box/solicitudes-web/post.md)
   * [Aplicaciones web](cbbh-hack-the-box/aplicaciones-web.md)
   * [Uso de proxies web](cbbh-hack-the-box/uso-de-proxies-web.md)
   * [Recopilacion de info](cbbh-hack-the-box/recopilacion-de-info.md)

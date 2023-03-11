@@ -149,6 +149,6 @@ Trate de usar el <mark style="color:green;">`-I`</mark>o el <mark style="color:g
 
 Finalmente, veamos cómo podemos obtener una vista previa de los encabezados HTTP usando las herramientas de desarrollo del navegador. Al igual que hicimos en el apartado anterior, podemos ir a la pestaña Network para ver las diferentes solicitudes que realiza la página. Podemos hacer clic en cualquiera de las solicitudes para ver su detalle:
 
-<figure><img src="../../../.gitbook/assets/image (3).jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).jpeg" alt=""><figcaption></figcaption></figure>
 
 En la primera <mark style="color:green;">`Headers`</mark> pestaña, vemos tanto la solicitud HTTP como los encabezados de respuesta HTTP. Las herramientas de desarrollo organizan automáticamente los encabezados en secciones, pero podemos hacer clic en el <mark style="color:green;">`Raw`</mark> botón para ver sus detalles en su formato sin procesar. Además, podemos consultar la <mark style="color:green;">`Cookies`</mark> pestaña para ver las cookies utilizadas por la solicitud, como se explica en una próxima sección.
