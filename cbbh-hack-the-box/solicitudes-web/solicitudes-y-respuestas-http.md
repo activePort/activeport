@@ -100,6 +100,6 @@ Cada vez que visitamos un sitio web o accedemos a una aplicación web, nuestro n
 
 Si hacemos clic en la pestaña Red y actualizamos la página, deberíamos poder ver la lista de solicitudes enviadas por la página:
 
-<figure><img src="../../.gitbook/assets/image (1).jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).jpeg" alt=""><figcaption></figcaption></figure>
 
 Como podemos ver, las herramientas de desarrollo nos muestran de un vistazo el estado de la respuesta (es decir, el código de respuesta), el método de solicitud utilizado ( <mark style="color:green;">`GET`</mark>), el recurso solicitado (es decir, URL/dominio), junto con la ruta solicitada. Además, podemos usar <mark style="color:green;">`Filter URLs`</mark> para buscar una solicitud específica, en caso de que el sitio web cargue demasiados para revisar.
