@@ -10,6 +10,6 @@ coverY: 0
 
 <summary>Pregunta : <em>¿Cuál es el tipo de SQLi más rápido?</em></summary>
 
-UNION query-based
+[Union query-based](./#union-basado-en-consultas)
 
 </details>

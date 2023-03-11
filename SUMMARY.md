@@ -27,6 +27,7 @@
   * [Fundamentos de SQLMap](cbbh-hack-the-box/fundamentos-de-sqlmap.md)
     * [Descripcion general](cbbh-hack-the-box/fundamentos-de-sqlmap/descripcion-general/README.md)
       * [Ejercicio](cbbh-hack-the-box/fundamentos-de-sqlmap/descripcion-general/ejercicio.md)
+    * [Empezando con SQLMap](cbbh-hack-the-box/fundamentos-de-sqlmap/empezando-con-sqlmap.md)
   * [Inyecciones de comando](cbbh-hack-the-box/inyecciones-de-comando.md)
   * [Ataques de carga de archivos](cbbh-hack-the-box/ataques-de-carga-de-archivos.md)
   * [Ataques del lado del servidor](cbbh-hack-the-box/ataques-del-lado-del-servidor.md)
