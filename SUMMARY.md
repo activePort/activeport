@@ -43,4 +43,5 @@
       * [Lab 7](academy-portswigger/ataques-jwt/confusion-de-algoritmo/lab-7.md)
     * [Obtención de claves públicas a partir de tokens existentes](academy-portswigger/ataques-jwt/obtencion-de-claves-publicas-a-partir-de-tokens-existentes/README.md)
       * [Lab 8](academy-portswigger/ataques-jwt/obtencion-de-claves-publicas-a-partir-de-tokens-existentes/lab-8.md)
+    * [Prevencion](academy-portswigger/ataques-jwt/prevencion.md)
 * [🕸 Road to the OSWE](road-to-the-oswe.md)
