@@ -12,12 +12,10 @@ Para resolver la práctica de laboratorio, primero obtenga la clave pública del
 
 Puede iniciar sesión en su propia cuenta con las siguientes credenciales: `wiener:peter`
 
-1 - Inicio sesion con las credenciales dadas.
+1 - Inicio sesion con las credenciales dadas y capturo el Request con Burpsuite y lo envio a Repeater. Copio el JWT. Este paso lo ejecuto 2 veces, ya que necesito dos JWT validos.
 
 <figure><img src="../../../.gitbook/assets/Captura de pantalla 2023-03-11 a la(s) 07.42.22.png" alt=""><figcaption></figcaption></figure>
 
-2 - Capturo el Request con Burpsuite y lo envio a Repeater.
-
 <figure><img src="../../../.gitbook/assets/Captura de pantalla 2023-03-11 a la(s) 07.42.15.png" alt=""><figcaption></figcaption></figure>
 
-3 -&#x20;
+/
