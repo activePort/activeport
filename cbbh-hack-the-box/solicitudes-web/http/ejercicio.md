@@ -1,3 +1,9 @@
+---
+cover: >-
+  https://images.unsplash.com/photo-1517836357463-d25dfeac3438?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw4fHxleGVyY2lzZXxlbnwwfHx8fDE2Nzg1NDQ2MDA&ixlib=rb-4.0.3&q=80
+coverY: 0
+---
+
 # Ejercicio
 
 PROPUESTA : _Para obtener la bandera, comience el ejercicio anterior, luego use cURL para descargar el archivo devuelto por <mark style="color:green;">`'/download.php'`</mark> en el servidor que se muestra arriba._

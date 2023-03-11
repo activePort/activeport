@@ -1,3 +1,9 @@
+---
+cover: >-
+  https://images.unsplash.com/photo-1526498460520-4c246339dccb?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwxfHxodHRwfGVufDB8fHx8MTY3ODU0NDU3NA&ixlib=rb-4.0.3&q=80
+coverY: 0
+---
+
 # HTTP
 
 ## <mark style="color:blue;">HyperText Transfer Protocol (HTTP)</mark>

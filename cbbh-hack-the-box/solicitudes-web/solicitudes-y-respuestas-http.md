@@ -1,3 +1,9 @@
+---
+cover: >-
+  https://images.unsplash.com/photo-1630769989573-d7f20f0193b0?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwxfHxyZXNwb25zZXxlbnwwfHx8fDE2Nzg1NDQ2Njc&ixlib=rb-4.0.3&q=80
+coverY: 0
+---
+
 # Solicitudes y Respuestas HTTP
 
 Las comunicaciones HTTP consisten principalmente en una solicitud HTTP y una respuesta HTTP.  El cliente realiza una solicitud HTTP (p. ej., cURL/navegador) y la procesa el servidor (p. ej., servidor web). Las solicitudes contienen todos los detalles que requerimos del servidor, incluido el recurso (p. ej., URL, ruta, parámetros), cualquier dato de solicitud, encabezados u opciones que especifiquemos, y muchas otras opciones que analizaremos a lo largo de este módulo.
@@ -10,7 +16,7 @@ Una vez que el servidor recibe la solicitud HTTP, la procesa y responde enviando
 
 Comencemos examinando el siguiente ejemplo de solicitud HTTP:
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 La imagen de arriba muestra una solicitud HTTP GET a la URL:
 
@@ -36,7 +42,7 @@ HTTP versión 1.X envía solicitudes como texto sin cifrar y utiliza un carácte
 
 Una vez que el servidor procesa nuestra solicitud, envía su respuesta. El siguiente es un ejemplo de respuesta HTTP:
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 La primera línea de una respuesta HTTP contiene dos campos separados por espacios. El primero es el `HTTP version`(p. ej `HTTP/1.1`.), y el segundo denota el `HTTP response code`(p. ej `200 OK`.).
 
@@ -94,6 +100,6 @@ Cada vez que visitamos un sitio web o accedemos a una aplicación web, nuestro n
 
 Si hacemos clic en la pestaña Red y actualizamos la página, deberíamos poder ver la lista de solicitudes enviadas por la página:
 
-<figure><img src="../../../.gitbook/assets/image.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.jpeg" alt=""><figcaption></figcaption></figure>
 
 Como podemos ver, las herramientas de desarrollo nos muestran de un vistazo el estado de la respuesta (es decir, el código de respuesta), el método de solicitud utilizado ( <mark style="color:green;">`GET`</mark>), el recurso solicitado (es decir, URL/dominio), junto con la ruta solicitada. Además, podemos usar <mark style="color:green;">`Filter URLs`</mark> para buscar una solicitud específica, en caso de que el sitio web cargue demasiados para revisar.

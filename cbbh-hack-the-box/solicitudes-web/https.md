@@ -1,3 +1,9 @@
+---
+cover: >-
+  https://images.unsplash.com/photo-1427104227401-94b390b378b0?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwyfHxodHRwc3xlbnwwfHx8fDE2Nzg1NDQ2MjY&ixlib=rb-4.0.3&q=80
+coverY: 0
+---
+
 # HTTPS
 
 ## <mark style="color:blue;">Hypertext Transfer Protocol Secure (HTTPS)</mark>

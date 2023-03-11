@@ -1,3 +1,9 @@
+---
+cover: >-
+  https://images.unsplash.com/photo-1517836357463-d25dfeac3438?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw4fHxleGVyY2lzZXxlbnwwfHx8fDE2Nzg1NDQ2MDA&ixlib=rb-4.0.3&q=80
+coverY: 0
+---
+
 # Ejercicio
 
 Propuesta : 1 ) - _¿Cuál es el método HTTP utilizado al interceptar la solicitud?_
@@ -12,4 +18,6 @@ Pego la ip en la URL e inspeciono la pagina para obtener el metodo que se realiz
 
 <figure><img src="../../../.gitbook/assets/Captura de pantalla 2023-03-11 a la(s) 11.17.38.png" alt=""><figcaption></figcaption></figure>
 
-__
+Luego de eso voy a la terminal y con cURL y el comando -v puedo leer los encabezados de la respuesta y ver la version del servidor Apache que estan utilizando.
+
+<figure><img src="../../../.gitbook/assets/Captura de pantalla 2023-03-11 a la(s) 11.20.10.png" alt=""><figcaption></figcaption></figure>
