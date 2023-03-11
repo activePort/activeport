@@ -10,16 +10,16 @@ Esta práctica de laboratorio usa un mecanismo basado en JWT para manejar sesion
 
 2 - Capturo el Request con Burpsuite.
 
-3 - Voy a la pestaña JWT Editor Keys y genero una nueva clave simetrica y el valor de k lo reemplazo por AA== .
+3 - Voy a la pestaña JWT Editor Keys y genero una nueva clave simetrica y el valor de k lo reemplazo por `AA==` .
 
-<figure><img src="../../../.gitbook/assets/1 (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (5) (3).png" alt=""><figcaption></figcaption></figure>
 
-4 - Cambio el valor de kid por la ruta hacia /dev/null ,el valor de sub a administrator y la ruta a /admin firmo el JWT con la clave que cree anteriormente.
+4 - Cambio el valor de kid por la ruta hacia `/dev/null` ,el valor de sub a administrator y la ruta a `/admin` firmo el JWT con la clave que cree anteriormente.
 
 <figure><img src="../../../.gitbook/assets/1 (4).png" alt=""><figcaption></figcaption></figure>
 
 5 - Envio el Request y el response me da OK.
 
-<figure><img src="../../../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (5).png" alt=""><figcaption></figcaption></figure>
 
 Si el servidor almacena sus claves de verificación en una base de datos, el parámetro kid de encabezado también es un vector potencial para [los ataques de inyección SQL ](https://portswigger.net/web-security/sql-injection).

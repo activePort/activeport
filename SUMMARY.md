@@ -38,4 +38,8 @@
       * [Lab 5](academy-portswigger/ataques-jwt/inyeccion-de-parametros/lab-5.md)
       * [Inyectar JWT autofirmados a traves del parametro KID](academy-portswigger/ataques-jwt/inyeccion-de-parametros/inyectar-jwt-autofirmados-a-traves-del-parametro-kid.md)
       * [Lab 6](academy-portswigger/ataques-jwt/inyeccion-de-parametros/lab-6.md)
+    * [Otros parametros](academy-portswigger/ataques-jwt/otros-parametros.md)
+    * [Confusión de algoritmo](academy-portswigger/ataques-jwt/confusion-de-algoritmo/README.md)
+      * [Lab 7](academy-portswigger/ataques-jwt/confusion-de-algoritmo/lab-7.md)
+    * [Obtención de claves públicas a partir de tokens existentes](academy-portswigger/ataques-jwt/obtencion-de-claves-publicas-a-partir-de-tokens-existentes.md)
 * [🕸 Road to the OSWE](road-to-the-oswe.md)

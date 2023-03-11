@@ -52,7 +52,7 @@ Simplifico los pasos ya que son los mismos a los labs anteriores.
 
 11 - El token modificado ahora esta frimado con la firma correcta. Envio la solicitud.
 
-<figure><img src="../../../.gitbook/assets/1 (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 12 - Y elimino por quinceava vez a carlos.
 

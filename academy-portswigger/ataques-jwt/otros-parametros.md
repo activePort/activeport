@@ -1,0 +1,8 @@
+# Otros parametros
+
+## <mark style="color:orange;">OTROS PARAMETROS DE ENCABEZADO JWT INTERESANTES</mark>
+
+Los siguientes parámetros de encabezado también pueden ser interesantes para los atacantes:
+
+* `cty`(Tipo de contenido): a veces se usa para declarar un tipo de medio para el contenido en la carga útil de JWT. Esto generalmente se omite del encabezado, pero la biblioteca de análisis subyacente puede admitirlo de todos modos. Si ha encontrado una manera de eludir la verificación de firma, puede intentar inyectar un `cty`encabezado para cambiar el tipo de contenido a `text/xml`o `application/x-java-serialized-object`, que potencialmente puede habilitar nuevos vectores para [XXE](https://portswigger.net/web-security/xxe) y [ataques de deserialización](https://portswigger.net/web-security/deserialization) .
+* `x5c`(Cadena de certificados X.509): a veces se utiliza para pasar el certificado de clave pública X.509 o la cadena de certificados de la clave utilizada para firmar digitalmente el JWT. Este parámetro de encabezado se puede usar para inyectar certificados autofirmados, similar al `[jwk`ataques de inyección de encabezado]\([https://portswigger.net/web-security/jwt#injecting-self-signed-jwts-via-the-jwk-parameter](https://portswigger.net/web-security/jwt#injecting-self-signed-jwts-via-the-jwk-parameter)) discutidos anteriormente. Debido a la complejidad del formato X.509 y sus extensiones, el análisis de estos certificados también puede generar vulnerabilidades. Los detalles de estos ataques están más allá del alcance de estos materiales, pero para obtener más detalles, consulte [CVE-2017-2800](https://talosintelligence.com/vulnerability\_reports/TALOS-2017-0293) y [CVE-2018-2633](https://mbechler.github.io/2018/01/20/Java-CVE-2018-2633) .
