@@ -6,7 +6,7 @@ coverY: 0
 
 # Ejercicio
 
-Propuesta : _El ejercicio anterior parece estar roto, ya que arroja resultados incorrectos. Use las herramientas de desarrollo del navegador para ver cuál es la solicitud que envía cuando buscamos, y use cURL para buscar 'bandera' y obtener la bandera._
+Propuesta : _El ejercicio anterior parece estar roto, ya que arroja resultados incorrectos. Use las herramientas de desarrollo del navegador para ver cuál es la solicitud que envía cuando buscamos, y use cURL para buscar 'flag' y obtener la bandera._
 
 __
 
