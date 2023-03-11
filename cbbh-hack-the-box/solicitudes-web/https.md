@@ -18,13 +18,13 @@ Podemos ver que las credenciales de inicio de sesión se pueden ver en texto cla
 
 Por el contrario, cuando alguien intercepta y analiza el tráfico de una solicitud HTTPS, vería algo como lo siguiente:
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Como podemos ver, los datos se transfieren como un único flujo cifrado, lo que hace que sea muy difícil para cualquiera capturar información como credenciales o cualquier otro dato confidencial.
 
 Los sitios web que aplican HTTPS se pueden identificar a través https:// de su URL (por ejemplo, https://www.google.com), así como del icono de candado en la barra de direcciones del navegador web, a la izquierda de la URL:
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Entonces, si visitamos un sitio web que utiliza HTTPS, como Google, todo el tráfico estaría encriptado.
 
