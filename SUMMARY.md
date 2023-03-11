@@ -10,6 +10,8 @@
       * [Ejercicio](cbbh-hack-the-box/solicitudes-web/solicitudes-y-respuestas-http/ejercicio.md)
     * [HTTP Headers](cbbh-hack-the-box/solicitudes-web/http-headers/README.md)
       * [Ejercicio](cbbh-hack-the-box/solicitudes-web/http-headers/ejercicio.md)
+    * [Codigos y metodos HTTP](cbbh-hack-the-box/solicitudes-web/codigos-y-metodos-http.md)
+    * [GET](cbbh-hack-the-box/solicitudes-web/get.md)
   * [Aplicaciones web](cbbh-hack-the-box/aplicaciones-web.md)
   * [Uso de proxies web](cbbh-hack-the-box/uso-de-proxies-web.md)
   * [Recopilacion de info](cbbh-hack-the-box/recopilacion-de-info.md)
