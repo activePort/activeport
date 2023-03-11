@@ -2,7 +2,8 @@
 
 * [👋 Bienvenid@!](README.md)
 * [🕷 CBBH Hack The Box](cbbh-hack-the-box/README.md)
-  * [Solicitudes web](cbbh-hack-the-box/solicitudes-web.md)
+  * [Solicitudes web](cbbh-hack-the-box/solicitudes-web/README.md)
+    * [HTTP](cbbh-hack-the-box/solicitudes-web/http.md)
   * [Aplicaciones web](cbbh-hack-the-box/aplicaciones-web.md)
   * [Uso de proxies web](cbbh-hack-the-box/uso-de-proxies-web.md)
   * [Recopilacion de info](cbbh-hack-the-box/recopilacion-de-info.md)
