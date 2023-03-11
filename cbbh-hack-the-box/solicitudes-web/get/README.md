@@ -132,7 +132,7 @@ A medida que la página devuelve nuestros resultados, puede ponerse en contacto 
 
 Después de eso, podemos ingresar cualquier término de búsqueda y presionar enter, e inmediatamente notaremos que se envía una nueva solicitud al backend:
 
-<figure><img src="../../../.gitbook/assets/image (5).jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).jpeg" alt=""><figcaption></figcaption></figure>
 
 Cuando hacemos clic en la solicitud, se envía `search.php`con el parámetro GET `search=le`utilizado en la URL. Esto nos ayuda a comprender que la función de búsqueda solicita otra página para los resultados.
 
