@@ -1,3 +1,8 @@
+---
+cover: ../../.gitbook/assets/sqlmap_bg2.jpg
+coverY: 0
+---
+
 # Fundamentos de SQLMap
 
 La mayoría de las aplicaciones web en estos días están conectadas a una base de datos en el backend que almacena varios tipos de datos que la página web necesita mostrar, desde la información del usuario hasta el contenido del front-end.
