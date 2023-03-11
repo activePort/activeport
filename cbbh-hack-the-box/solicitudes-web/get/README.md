@@ -6,17 +6,19 @@ Cada vez que visitamos cualquier URL, nuestros navegadores realizan una solicitu
 Elija cualquier sitio web de su elección y controle la pestaña Red en las herramientas de desarrollo del navegador mientras lo visita para comprender el rendimiento de la página. Esta técnica se puede utilizar para comprender a fondo cómo una aplicación web interactúa con su backend, lo que puede ser un ejercicio esencial para cualquier evaluación de aplicaciones web o ejercicio de recompensas por errores.
 {% endhint %}
 
+## <mark style="color:orange;"></mark>
+
 ## <mark style="color:orange;">Autenticacion basica HTTP</mark>
 
 Cuando visitamos el ejercicio que se encuentra al final de esta sección, nos solicita ingresar un nombre de usuario y una contraseña. A diferencia de los formularios de inicio de sesión habituales, que utilizan parámetros HTTP para validar las credenciales del usuario (p. ej., solicitud POST), este tipo de autenticación utiliza un correo electrónico <mark style="color:orange;">`basic HTTP authentication`</mark>, que el servidor web maneja directamente para proteger una página/directorio específico, sin interactuar directamente con la aplicación web.
 
 Para acceder a la página, debemos ingresar un par de credenciales válidas, que son <mark style="color:orange;">`admin`</mark><mark style="color:orange;">:</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`admin`</mark>en este caso:
 
-<figure><img src="../../.gitbook/assets/image.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).jpeg" alt=""><figcaption></figcaption></figure>
 
 Una vez que ingresamos las credenciales, obtendríamos acceso a la página:
 
-<figure><img src="../../.gitbook/assets/image (3).jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).jpeg" alt=""><figcaption></figcaption></figure>
 
 Intentemos acceder a la página con cURL, y agregaremos <mark style="color:orange;">`-i`</mark> para ver los encabezados de respuesta:
 
@@ -122,13 +124,35 @@ Como vemos, esto también nos dio acceso a la página. Estos son algunos método
 
 Una vez que estamos autenticados, tenemos acceso a la funcion `City Search`, en la que podemos ingresar un término de búsqueda y obtener una lista de ciudades coincidentes:
 
-<figure><img src="../../.gitbook/assets/image (3).jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).jpeg" alt=""><figcaption></figcaption></figure>
 
 A medida que la página devuelve nuestros resultados, puede ponerse en contacto con un recurso remoto para obtener la información y luego mostrarlos en la página. Para verificar esto, podemos abrir las herramientas de desarrollo del navegador e ir a la pestaña Red, o usar el acceso directo \[ CTRL+SHIFT+E] para llegar a la misma pestaña. Antes de ingresar nuestro término de búsqueda y ver las solicitudes, es posible que debamos hacer clic en el trashícono en la parte superior izquierda, para asegurarnos de eliminar las solicitudes anteriores y solo monitorear las solicitudes más nuevas.
 
-<figure><img src="../../.gitbook/assets/image.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.jpg" alt=""><figcaption></figcaption></figure>
 
 Después de eso, podemos ingresar cualquier término de búsqueda y presionar enter, e inmediatamente notaremos que se envía una nueva solicitud al backend:
 
-<figure><img src="../../.gitbook/assets/image (4).jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).jpeg" alt=""><figcaption></figcaption></figure>
 
+Cuando hacemos clic en la solicitud, se envía `search.php`con el parámetro GET `search=le`utilizado en la URL. Esto nos ayuda a comprender que la función de búsqueda solicita otra página para los resultados.
+
+Ahora, podemos enviar la misma solicitud directamente a `search.php`para obtener los resultados de búsqueda completos, aunque probablemente los devolverá en un formato específico (por ejemplo, JSON) sin tener el diseño HTML que se muestra en la captura de pantalla anterior.
+
+Para enviar una solicitud GET con cURL, podemos usar exactamente la misma URL que se ve en las capturas de pantalla anteriores, ya que las solicitudes GET colocan sus parámetros en la URL. Sin embargo, las herramientas de desarrollo del navegador brindan un método más conveniente para obtener el comando cURL. Podemos hacer clic derecho sobre la solicitud y seleccionar `Copy>Copy as cURL`. Luego, podemos pegar el comando copiado en nuestra terminal y ejecutarlo, y deberíamos obtener exactamente la misma respuesta:
+
+```bash
+activePort@htb[/htb]$ curl 'http://<SERVER_IP>:<PORT>/search.php?search=le' -H 'Authorization: Basic YWRtaW46YWRtaW4='
+
+Leeds (UK)
+Leicester (UK)
+```
+
+{% hint style="info" %}
+El comando copiado contendrá todos los encabezados utilizados en la solicitud HTTP. Sin embargo, podemos eliminar la mayoría de ellos y mantener solo los encabezados de autenticación necesarios, como el <mark style="color:orange;">`Authorization`</mark>encabezamiento.
+{% endhint %}
+
+También podemos repetir la solicitud exacta dentro de las herramientas de desarrollo del navegador, seleccionando <mark style="color:orange;">`Copy > Copy as Fetch`</mark>. Esto copiará la misma solicitud HTTP utilizando la biblioteca JavaScript Fetch. Luego, podemos ir a la pestaña de la consola de JavaScript haciendo clic en <mark style="color:orange;">`[ CTRL+SHIFT+K]`</mark>, pegue nuestro comando Fetch y presione enter para enviar la solicitud:
+
+<figure><img src="../../../.gitbook/assets/image (4).jpeg" alt=""><figcaption></figcaption></figure>
+
+Como vemos, el navegador envió nuestra solicitud y podemos ver la respuesta devuelta después. Podemos hacer clic en la respuesta para ver sus detalles, ampliar varios detalles y leerlos.
