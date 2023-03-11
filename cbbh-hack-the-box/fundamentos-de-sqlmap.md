@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/sqlmap_bg2.jpg
+cover: ../.gitbook/assets/sqlmap_bg2.jpg
 coverY: 0
 ---
 

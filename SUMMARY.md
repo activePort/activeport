@@ -24,7 +24,7 @@
   * [Desofuscacion de Javascript](cbbh-hack-the-box/desofuscacion-de-javascript.md)
   * [Cross-Site Scripting (XSS)](cbbh-hack-the-box/cross-site-scripting-xss.md)
   * [Fundamentos de inyeccion SQL](cbbh-hack-the-box/fundamentos-de-inyeccion-sql.md)
-  * [Fundamentos de SQLMap](cbbh-hack-the-box/fundamentos-de-sqlmap/README.md)
+  * [Fundamentos de SQLMap](cbbh-hack-the-box/fundamentos-de-sqlmap.md)
     * [Descripcion general](cbbh-hack-the-box/fundamentos-de-sqlmap/descripcion-general/README.md)
       * [Ejercicio](cbbh-hack-the-box/fundamentos-de-sqlmap/descripcion-general/ejercicio.md)
   * [Inyecciones de comando](cbbh-hack-the-box/inyecciones-de-comando.md)
