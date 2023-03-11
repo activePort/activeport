@@ -72,7 +72,7 @@ En esta sección, analizaremos este proceso con más detalle y demostraremos có
 
 #### <mark style="color:orange;">Paso 1 : Obtenga la clave publica del servidor</mark>
 
-Los servidores a veces exponen sus claves públicas como objetos JSON Web Key (JWK) a través de un punto final estándar asignado a /jwks.jsono /.well-known/jwks.json, Por ejemplo. Estos pueden almacenarse en una matriz de JWK llamada keys. Esto se conoce como Conjunto JWK.
+Los servidores a veces exponen sus claves públicas como objetos JSON Web Key (JWK) a través de un punto final estándar asignado a /jwks.json o /.well-known/jwks.json, Por ejemplo. Estos pueden almacenarse en una matriz de JWK llamada keys. Esto se conoce como Conjunto JWK.
 
 ```javascript
 {
