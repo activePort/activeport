@@ -10,7 +10,7 @@ Una vez que el servidor recibe la solicitud HTTP, la procesa y responde enviando
 
 Comencemos examinando el siguiente ejemplo de solicitud HTTP:
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 La imagen de arriba muestra una solicitud HTTP GET a la URL:
 
@@ -36,7 +36,7 @@ HTTP versión 1.X envía solicitudes como texto sin cifrar y utiliza un carácte
 
 Una vez que el servidor procesa nuestra solicitud, envía su respuesta. El siguiente es un ejemplo de respuesta HTTP:
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 La primera línea de una respuesta HTTP contiene dos campos separados por espacios. El primero es el `HTTP version`(p. ej `HTTP/1.1`.), y el segundo denota el `HTTP response code`(p. ej `200 OK`.).
 
@@ -76,7 +76,7 @@ activePort@htb[/htb]$ curl inlanefreight.com -v
 ...SNIP...h
 ```
 
-Como podemos ver, esta vez, obtenemos la solicitud y la respuesta HTTP completas. La solicitud simplemente se envía <mark style="color:green;">`GET / HTTP/1.1`</mark>  junto con los encabezados y <mark style="color:green;">`Host`</mark>. A cambio, la respuesta <mark style="color:green;">`HTTP`</mark> contenía el estado <mark style="color:green;">`401 Unauthorized`</mark>, lo que indica que no tenemos acceso sobre el recurso solicitado, como veremos en una próxima sección. Similar a la solicitud, la respuesta también contenía varios encabezados enviados por el servidor, incluidos <mark style="color:green;">`Date, Content-Length and Content-Type`</mark> . Finalmente, la respuesta contenía el cuerpo de la respuesta en HTML, que es el mismo que recibimos anteriormente cuando usamos cURL sin la bandera. <mark style="color:green;">`User-AgentAcceptHTTP/1.1 401 UnauthorizedDateContent-LengthContent-Type-v.`</mark>
+Como podemos ver, esta vez, obtenemos la solicitud y la respuesta HTTP completas. La solicitud simplemente se envía <mark style="color:green;">`GET / HTTP/1.1`</mark>  junto con los encabezados y <mark style="color:green;">`Host`</mark>. A cambio, la respuesta <mark style="color:green;">`HTTP`</mark> contenía el estado <mark style="color:green;">`401 Unauthorized`</mark>, lo que indica que no tenemos acceso sobre el recurso solicitado, como veremos en una próxima sección. Similar a la solicitud, la respuesta también contenía varios encabezados enviados por el servidor, incluidos <mark style="color:green;">`Date, Content-Length and Content-Type`</mark> . Finalmente, la respuesta contenía el cuerpo de la respuesta en HTML, que es el mismo que recibimos anteriormente cuando usamos cURL sin la bandera. <mark style="color:green;">`User-AgentAcceptHTTP/1.1 401 Unauthorized DateContent-LengthContent-Type-v.`</mark>
 
 
 
@@ -86,3 +86,14 @@ La -vvv bandera muestra una salida aún más detallada. Intente usar esta marca 
 
 
 
+## <mark style="color:blue;">Browser DevTools</mark>
+
+La mayoría de los navegadores web modernos vienen con herramientas de desarrollador integradas ( `DevTools`), que están destinadas principalmente a que los desarrolladores prueben sus aplicaciones web. Sin embargo, como probadores de penetración web, estas herramientas pueden ser un activo vital en cualquier evaluación web que realicemos, ya que un navegador (y sus DevTools) se encuentran entre los activos que es más probable que tengamos en cada ejercicio de evaluación web. En este módulo, también analizaremos cómo utilizar algunas de las herramientas de desarrollo básicas del navegador para evaluar y monitorear diferentes tipos de solicitudes web.
+
+Cada vez que visitamos un sitio web o accedemos a una aplicación web, nuestro navegador envía múltiples solicitudes web y maneja múltiples respuestas HTTP para mostrar la vista final que vemos en la ventana del navegador. Para abrir las herramientas de desarrollo del navegador en Chrome o Firefox, podemos hacer clic en \[ `CTRL+SHIFT+I`] o simplemente hacer clic en \[ `F12`]. Las herramientas de desarrollo contienen varias pestañas, cada una de las cuales tiene su propio uso. Nos centraremos principalmente en la `Network`pestaña de este módulo, ya que es responsable de las solicitudes web.
+
+Si hacemos clic en la pestaña Red y actualizamos la página, deberíamos poder ver la lista de solicitudes enviadas por la página:
+
+<figure><img src="../../../.gitbook/assets/image.jpeg" alt=""><figcaption></figcaption></figure>
+
+Como podemos ver, las herramientas de desarrollo nos muestran de un vistazo el estado de la respuesta (es decir, el código de respuesta), el método de solicitud utilizado ( <mark style="color:green;">`GET`</mark>), el recurso solicitado (es decir, URL/dominio), junto con la ruta solicitada. Además, podemos usar <mark style="color:green;">`Filter URLs`</mark> para buscar una solicitud específica, en caso de que el sitio web cargue demasiados para revisar.
