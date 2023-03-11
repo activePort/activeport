@@ -1,3 +1,9 @@
+---
+cover: >-
+  https://images.unsplash.com/photo-1527784011719-3349bf049cf4?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw2fHxnZXR8ZW58MHx8fHwxNjc4NTYyODE3&ixlib=rb-4.0.3&q=80
+coverY: -123
+---
+
 # GET
 
 Cada vez que visitamos cualquier URL, nuestros navegadores realizan una solicitud GET de forma predeterminada para obtener los recursos remotos alojados en esa URL. Una vez que el navegador recibe la página inicial que está solicitando; puede enviar otras solicitudes utilizando varios métodos HTTP. Esto se puede observar a través de la pestaña Red en las herramientas de desarrollo del navegador, como se vio en la sección anterior.
@@ -14,7 +20,7 @@ Cuando visitamos el ejercicio que se encuentra al final de esta sección, nos so
 
 Para acceder a la página, debemos ingresar un par de credenciales válidas, que son <mark style="color:orange;">`admin`</mark><mark style="color:orange;">:</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`admin`</mark>en este caso:
 
-<figure><img src="../../../.gitbook/assets/image (1) (2).jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).jpeg" alt=""><figcaption></figcaption></figure>
 
 Una vez que ingresamos las credenciales, obtendríamos acceso a la página:
 
@@ -153,6 +159,6 @@ El comando copiado contendrá todos los encabezados utilizados en la solicitud H
 
 También podemos repetir la solicitud exacta dentro de las herramientas de desarrollo del navegador, seleccionando <mark style="color:orange;">`Copy > Copy as Fetch`</mark>. Esto copiará la misma solicitud HTTP utilizando la biblioteca JavaScript Fetch. Luego, podemos ir a la pestaña de la consola de JavaScript haciendo clic en <mark style="color:orange;">`[ CTRL+SHIFT+K]`</mark>, pegue nuestro comando Fetch y presione enter para enviar la solicitud:
 
-<figure><img src="../../../.gitbook/assets/image (3).jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (2).jpeg" alt=""><figcaption></figcaption></figure>
 
 Como vemos, el navegador envió nuestra solicitud y podemos ver la respuesta devuelta después. Podemos hacer clic en la respuesta para ver sus detalles, ampliar varios detalles y leerlos.

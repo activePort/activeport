@@ -1,3 +1,9 @@
+---
+cover: >-
+  https://images.unsplash.com/photo-1531564701487-f238224b7ce3?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwyfHxwb3N0fGVufDB8fHx8MTY3ODU2Mjc5Mg&ixlib=rb-4.0.3&q=80
+coverY: 0
+---
+
 # POST
 
 En la sección anterior, vimos cómo las solicitudes `GET` pueden ser utilizadas por aplicaciones web para funcionalidades como búsqueda y acceso a páginas. Sin embargo, cada vez que las aplicaciones web necesitan transferir archivos o mover los parámetros de usuario de la URL, utilizan peticiones `POST`.
@@ -144,6 +150,6 @@ Intente repetir la solicitud anterior sin agregar la cookie o los encabezados de
 
 Finalmente, intentemos repetir la misma solicitud anterior usando `Fetch`, como hicimos en el apartado anterior. Podemos hacer clic derecho sobre la solicitud y seleccionar `Copy>Copy as Fetch`, y luego vaya a la `Console`tab y ejecute nuestro código allí:
 
-<figure><img src="../../.gitbook/assets/image (1).jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).jpeg" alt=""><figcaption></figcaption></figure>
 
 Nuestra solicitud devuelve con éxito los mismos datos que obtuvimos con cURL. Intente buscar diferentes ciudades interactuando directamente con el <mark style="color:orange;">`search.php`</mark> a través de Fetch o cURL.

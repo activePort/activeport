@@ -15,6 +15,8 @@
       * [Ejercicio](cbbh-hack-the-box/solicitudes-web/get/ejercicio.md)
     * [POST](cbbh-hack-the-box/solicitudes-web/post.md)
       * [Ejercicio](cbbh-hack-the-box/solicitudes-web/post/ejercicio.md)
+    * [CRUD API](cbbh-hack-the-box/solicitudes-web/crud-api/README.md)
+      * [Ejercicio](cbbh-hack-the-box/solicitudes-web/crud-api/ejercicio.md)
   * [Aplicaciones web](cbbh-hack-the-box/aplicaciones-web.md)
   * [Uso de proxies web](cbbh-hack-the-box/uso-de-proxies-web.md)
   * [Recopilacion de info](cbbh-hack-the-box/recopilacion-de-info.md)

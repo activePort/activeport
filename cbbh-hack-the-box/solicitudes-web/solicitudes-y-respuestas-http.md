@@ -1,7 +1,7 @@
 ---
 cover: >-
   https://images.unsplash.com/photo-1630769989573-d7f20f0193b0?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwxfHxyZXNwb25zZXxlbnwwfHx8fDE2Nzg1NDQ2Njc&ixlib=rb-4.0.3&q=80
-coverY: 0
+coverY: 131
 ---
 
 # Solicitudes y Respuestas HTTP
