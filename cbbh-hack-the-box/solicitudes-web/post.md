@@ -150,6 +150,6 @@ Intente repetir la solicitud anterior sin agregar la cookie o los encabezados de
 
 Finalmente, intentemos repetir la misma solicitud anterior usando `Fetch`, como hicimos en el apartado anterior. Podemos hacer clic derecho sobre la solicitud y seleccionar `Copy>Copy as Fetch`, y luego vaya a la `Console`tab y ejecute nuestro código allí:
 
-<figure><img src="../../.gitbook/assets/image (2).jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).jpeg" alt=""><figcaption></figcaption></figure>
 
 Nuestra solicitud devuelve con éxito los mismos datos que obtuvimos con cURL. Intente buscar diferentes ciudades interactuando directamente con el <mark style="color:orange;">`search.php`</mark> a través de Fetch o cURL.
