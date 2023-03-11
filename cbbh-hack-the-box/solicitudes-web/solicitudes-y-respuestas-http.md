@@ -47,3 +47,42 @@ Finalmente, la respuesta puede terminar con un cuerpo de respuesta, que está se
 
 
 ## <mark style="color:blue;">cURL</mark>
+
+En nuestros ejemplos anteriores con cURL, solo especificamos la URL y obtuvimos el cuerpo de la respuesta a cambio. Sin embargo, cURL también nos permite obtener una vista previa de la solicitud HTTP completa y la respuesta HTTP completa, lo que puede ser muy útil al realizar pruebas de penetración web o escribir exploits. Para ver la solicitud y la respuesta HTTP completas, simplemente podemos agregar el <mark style="color:green;">`-v`</mark> indicador detallado a nuestros comandos anteriores, y debería imprimir tanto la solicitud como la respuesta:
+
+```bash
+activePort@htb[/htb]$ curl inlanefreight.com -v
+
+*   Trying SERVER_IP:80...
+* TCP_NODELAY set
+* Connected to inlanefreight.com (SERVER_IP) port 80 (#0)
+> GET / HTTP/1.1
+> Host: inlanefreight.com
+> User-Agent: curl/7.65.3
+> Accept: */*
+> Connection: close
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 401 Unauthorized
+< Date: Tue, 21 Jul 2020 05:20:15 GMT
+< Server: Apache/X.Y.ZZ (Ubuntu)
+< WWW-Authenticate: Basic realm="Restricted Content"
+< Content-Length: 464
+< Content-Type: text/html; charset=iso-8859-1
+< 
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+
+...SNIP...h
+```
+
+Como podemos ver, esta vez, obtenemos la solicitud y la respuesta HTTP completas. La solicitud simplemente se envía <mark style="color:green;">`GET / HTTP/1.1`</mark>  junto con los encabezados y <mark style="color:green;">`Host`</mark>. A cambio, la respuesta <mark style="color:green;">`HTTP`</mark> contenía el estado <mark style="color:green;">`401 Unauthorized`</mark>, lo que indica que no tenemos acceso sobre el recurso solicitado, como veremos en una próxima sección. Similar a la solicitud, la respuesta también contenía varios encabezados enviados por el servidor, incluidos <mark style="color:green;">`Date, Content-Length and Content-Type`</mark> . Finalmente, la respuesta contenía el cuerpo de la respuesta en HTML, que es el mismo que recibimos anteriormente cuando usamos cURL sin la bandera. <mark style="color:green;">`User-AgentAcceptHTTP/1.1 401 UnauthorizedDateContent-LengthContent-Type-v.`</mark>
+
+
+
+{% hint style="info" %}
+La -vvv bandera muestra una salida aún más detallada. Intente usar esta marca para ver qué solicitud adicional y detalles de respuesta se muestran con ella.
+{% endhint %}
+
+
+
