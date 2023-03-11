@@ -1,6 +1,6 @@
 # Ejercicio
 
-Para obtener la bandera, comience el ejercicio anterior, luego use cURL para descargar el archivo devuelto por '/download.php' en el servidor que se muestra arriba.
+PROPUESTA : _Para obtener la bandera, comience el ejercicio anterior, luego use cURL para descargar el archivo devuelto por <mark style="color:green;">`'/download.php'`</mark> en el servidor que se muestra arriba._
 
 
 
