@@ -132,7 +132,7 @@ A medida que la página devuelve nuestros resultados, puede ponerse en contacto 
 
 Después de eso, podemos ingresar cualquier término de búsqueda y presionar enter, e inmediatamente notaremos que se envía una nueva solicitud al backend:
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).jpeg" alt=""><figcaption></figcaption></figure>
 
 Cuando hacemos clic en la solicitud, se envía `search.php`con el parámetro GET `search=le`utilizado en la URL. Esto nos ayuda a comprender que la función de búsqueda solicita otra página para los resultados.
 
@@ -153,6 +153,6 @@ El comando copiado contendrá todos los encabezados utilizados en la solicitud H
 
 También podemos repetir la solicitud exacta dentro de las herramientas de desarrollo del navegador, seleccionando <mark style="color:orange;">`Copy > Copy as Fetch`</mark>. Esto copiará la misma solicitud HTTP utilizando la biblioteca JavaScript Fetch. Luego, podemos ir a la pestaña de la consola de JavaScript haciendo clic en <mark style="color:orange;">`[ CTRL+SHIFT+K]`</mark>, pegue nuestro comando Fetch y presione enter para enviar la solicitud:
 
-<figure><img src="../../../.gitbook/assets/image.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).jpeg" alt=""><figcaption></figcaption></figure>
 
 Como vemos, el navegador envió nuestra solicitud y podemos ver la respuesta devuelta después. Podemos hacer clic en la respuesta para ver sus detalles, ampliar varios detalles y leerlos.
