@@ -1,3 +1,9 @@
+---
+cover: >-
+  https://images.unsplash.com/photo-1629904888780-8de0c7aeed28?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwxfHxleGVjdXRlfGVufDB8fHx8MTY3ODcwNjU2Mg&ixlib=rb-4.0.3&q=80
+coverY: 0
+---
+
 # SQLMap en HTTP
 
 ## <mark style="color:orange;">Ejecutar SQLMap en una solicitud HTTP</mark>

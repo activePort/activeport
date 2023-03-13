@@ -31,6 +31,7 @@
     * [Descripcion de salida](cbbh-hack-the-box/fundamentos-de-sqlmap/descripcion-de-salida.md)
     * [SQLMap en HTTP](cbbh-hack-the-box/fundamentos-de-sqlmap/sqlmap-en-http/README.md)
       * [Ejercicio](cbbh-hack-the-box/fundamentos-de-sqlmap/sqlmap-en-http/ejercicio.md)
+    * [Manejo de errores](cbbh-hack-the-box/fundamentos-de-sqlmap/manejo-de-errores.md)
   * [Inyecciones de comando](cbbh-hack-the-box/inyecciones-de-comando.md)
   * [Ataques de carga de archivos](cbbh-hack-the-box/ataques-de-carga-de-archivos.md)
   * [Ataques del lado del servidor](cbbh-hack-the-box/ataques-del-lado-del-servidor.md)

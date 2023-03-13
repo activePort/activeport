@@ -1,3 +1,9 @@
+---
+cover: >-
+  https://images.unsplash.com/photo-1509475826633-fed577a2c71b?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwxfHxvdXRwdXR8ZW58MHx8fHwxNjc4NzA2NDg2&ixlib=rb-4.0.3&q=80
+coverY: 0
+---
+
 # Descripcion de salida
 
 Al final de la sección anterior, la salida de sqlmap nos mostró mucha información durante su exploración. Estos datos suelen ser cruciales para comprender, ya que nos guían a través del proceso automatizado de inyección de SQL. Esto nos muestra exactamente qué tipo de vulnerabilidades está explotando SQLMap, lo que nos ayuda a reportar qué tipo de inyección tiene la aplicación web. Esto también puede resultar útil si queremos explotar manualmente la aplicación web una vez que SQLMap determina el tipo de inyección y el parámetro vulnerable.
