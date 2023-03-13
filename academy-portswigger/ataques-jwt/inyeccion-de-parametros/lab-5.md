@@ -30,7 +30,7 @@ Simplifico los pasos ya que son los mismos a los labs anteriores.
 
 7 - Copio el RSA Key y la pego dentro de keys.
 
-<figure><img src="../../../.gitbook/assets/1 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/1 (30).png" alt=""><figcaption></figcaption></figure>
 

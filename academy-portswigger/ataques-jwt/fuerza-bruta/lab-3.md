@@ -20,7 +20,7 @@ Esta práctica de laboratorio usa un mecanismo basado en JWT para manejar sesion
 
 4 - En Burpsuite, en la pestaña Decoder, codifico el secreto en Base64 que forze con Hashcat.
 
-<figure><img src="../../../.gitbook/assets/1 (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 5 - Luego, voy al JWT Editor Keys. Clickeo en New Symmetric Key y genero una nueva clave. El valor de k lo reemplazo por el secreto que codifique en Base64. Doy click en OK para guardar la clave.
 
